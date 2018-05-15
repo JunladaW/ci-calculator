@@ -1,9 +1,6 @@
 package com.example.junlada.calculator;
 
-import android.app.Activity;
 import android.support.test.rule.ActivityTestRule;
-import com.example.junlada.calculator.MainActivity;
-import com.example.junlada.calculator.R;
 
 import org.junit.ClassRule;
 import org.junit.Rule;
@@ -20,8 +17,6 @@ import static android.support.test.espresso.action.ViewActions.replaceText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
-
-import static org.junit.Assert.*;
 
 public class MainActivityTest {
 

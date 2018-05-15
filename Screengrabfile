@@ -3,8 +3,8 @@
 app_package_name('com.example.junlada.calculator')
 # use_tests_in_packages(['your.screenshot.tests.package'])
 
-# app_apk_path('path/to/your/app.apk')
-# tests_apk_path('path/to/your/tests.apk')
+app_apk_path('com.example.junlada.calculator')
+tests_apk_path('com.example.junlada.calculator')
 
 locales(['en-US', 'fr-FR', 'it-IT'])
 
